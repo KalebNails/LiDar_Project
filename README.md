@@ -23,6 +23,14 @@ This is a picture of the absolute encoder I used for this project. We ran it usi
 
 ## General Details:
 We ran the lidar using a raspberry pi 4, and then used an arduino as a middleman for the encoder. I did this previously on my own with an incremental encoder but found accuracy issues, so I wanted to bumb it up to an absolute encoder. combined.py will recieve serial input from the arduino and run the lidar itself. It is run using bokeh to the command to run it is:
+
 ```bash bokeh serve --show combined.py```
 
 
+# Files:
+
+## Combined.py
+
+## Aurduinoreader.py
+
+## TF-luna distance
