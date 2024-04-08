@@ -10,3 +10,8 @@ Lidar TF-Luna datasheet: https://s3-us-west-2.amazonaws.com/files.seeedstudio.co
 TF-Luna Code Inspiration & tutorials: https://makersportal.com/shop/tf-luna-lidar-module
 
 AMT 203 Code: https://github.com/HodgsonOrtho/AMT203
+
+## TF-Luna Lidar:
+![image](https://github.com/KalebNails/LiDar_Project/assets/102830532/5be4f64d-e12d-4bdb-bc99-2ff9e22e8de1)
+
+This is a picture of the lidar I used, it
