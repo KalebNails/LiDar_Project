@@ -2,13 +2,23 @@
 ### By: James Brophy (Jim) & Kaleb Nails
 This started as a personal project in 2023, that I took a year long haitus on. Then my friend, James Brophy, wanted to do it as his instrumentation project. So we worked on it together.
 
-# Files:
+## General Details:
+We ran the lidar using a raspberry pi 4, and then used an arduino as a middleman for the encoder. I did this previously on my own with an incremental encoder but found accuracy issues, so I wanted to bumb it up to an absolute encoder. The process can be started using the command below:
 
-## Combined.py
+```bash python3 Main.py```
 
-## Aurduinoreader.py
+# File Structure
+📦LiDar_Project
+ ┣ 📂experimental
+ ┃ ┣ 📄ArduinoReader.py
+ ┃ ┗ 📄combined.py
+ ┣ 📄AMT203.py
+ ┣ 📄Main.py
+ ┣ 📄README.md
+ ┣ 📄TFLunaRangeOutput.py
+ ┣ 📄anlge_test.py
+ ┗ 📄plotter.py
 
-## TF-luna distance
 
 
 ## References
@@ -30,7 +40,4 @@ This is a picture of the absolute encoder I used for this project. We ran it usi
 
 ![image](https://github.com/KalebNails/LiDar_Project/assets/102830532/cfba53ad-3e34-411f-948e-659eff0f1bb9)
 
-## General Details:
-We ran the lidar using a raspberry pi 4, and then used an arduino as a middleman for the encoder. I did this previously on my own with an incremental encoder but found accuracy issues, so I wanted to bumb it up to an absolute encoder. The process can be started using the command below:
 
-```bash python3 Main.py```
