@@ -33,4 +33,4 @@ This is a picture of the absolute encoder I used for this project. We ran it usi
 ## General Details:
 We ran the lidar using a raspberry pi 4, and then used an arduino as a middleman for the encoder. I did this previously on my own with an incremental encoder but found accuracy issues, so I wanted to bumb it up to an absolute encoder. The process can be started using the command below:
 
-```bash bokeh serve --show combined.py```
+```bash python3 Main.py```
