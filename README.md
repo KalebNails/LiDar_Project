@@ -2,6 +2,15 @@
 ### By: James Brophy (Jim) & Kaleb Nails
 This started as a personal project in 2023, that I took a year long haitus on. Then my friend, James Brophy, wanted to do it as his instrumentation project. So we worked on it together.
 
+# Files:
+
+## Combined.py
+
+## Aurduinoreader.py
+
+## TF-luna distance
+
+
 ## References
 Encoder Datasheet: https://www.cuidevices.com/product/resource/amt20.pdf
 
@@ -22,15 +31,6 @@ This is a picture of the absolute encoder I used for this project. We ran it usi
 ![image](https://github.com/KalebNails/LiDar_Project/assets/102830532/cfba53ad-3e34-411f-948e-659eff0f1bb9)
 
 ## General Details:
-We ran the lidar using a raspberry pi 4, and then used an arduino as a middleman for the encoder. I did this previously on my own with an incremental encoder but found accuracy issues, so I wanted to bumb it up to an absolute encoder. combined.py will recieve serial input from the arduino and run the lidar itself. It is run using bokeh to the command to run it is:
+We ran the lidar using a raspberry pi 4, and then used an arduino as a middleman for the encoder. I did this previously on my own with an incremental encoder but found accuracy issues, so I wanted to bumb it up to an absolute encoder. The process can be started using the command below:
 
 ```bash bokeh serve --show combined.py```
-
-
-# Files:
-
-## Combined.py
-
-## Aurduinoreader.py
-
-## TF-luna distance
