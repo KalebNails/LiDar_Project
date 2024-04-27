@@ -10,6 +10,17 @@ We ran the lidar using a raspberry pi 4, and then used an arduino as a middleman
 Below is an image of the sensors suite we put together. 
 ![image](https://github.com/KalebNails/LiDar_Project/assets/102830532/2632550e-1d67-49bb-8fd0-541499f696dc)
 
+## Sensors
+### TF-Luna Lidar
+This is a picture of the lidar I used, it is about $20 and has a range of 8m.
+
+![image](https://github.com/KalebNails/LiDar_Project/assets/102830532/5be4f64d-e12d-4bdb-bc99-2ff9e22e8de1)
+
+### AMT20 Encoder
+This is a picture of the absolute encoder I used for this project. We ran it using an arduino. 
+
+![image](https://github.com/KalebNails/LiDar_Project/assets/102830532/cfba53ad-3e34-411f-948e-659eff0f1bb9)
+
 ### 📝 File Structure 
 ```text
 📦LiDar_Project
@@ -49,10 +60,29 @@ Below are some of the results we collected from our data collection, throughout 
 ![image](https://github.com/KalebNails/LiDar_Project/assets/102830532/735c5bc5-b500-43d2-a137-5db36fbdb0aa)
 ---
 
+# LiDar and Angle Detection System Code
 
+This repository contains scripts for interfacing with LiDar sensors and angle detection devices, particularly focusing on the integration of the AMT203 encoder and TF-Luna LiDar sensor. The project aims to provide tools for serial communication, sensor data processing, and visualization of LiDar and angle data.
 
+## Features
 
-## References
+- **AMT203.py**: Interface and command the AMT203-V encoder via SPI.
+- **Main.py**: Manage serial communication and data logging for both LiDar and angle readings.
+- **TFLunaRangeOutput.py**: Capture and record distance measurements from the TF-Luna LiDar sensor.
+- **angle_test.py**: Test and debug serial communication for angle detection.
+- **Plotter.py**: Visualize angle and distance data using a scatter plot.
+
+## Installation
+Clone the repository to your local machine:
+```bash
+git clone https://github.com/yourusername/LiDar_Project.git
+cd LiDar_Project
+```
+Ensure that you have Python 3 installed on your system. You may also need to install additional Python libraries:
+```bash
+pip install pyftdi matplotlib json serial
+```
+# References
 Encoder Datasheet: https://www.cuidevices.com/product/resource/amt20.pdf
 
 Lidar TF-Luna datasheet: https://s3-us-west-2.amazonaws.com/files.seeedstudio.com/products/101990656/res/SJ-PM-TF-Luna+A01+Product+Manual.pdf
@@ -61,14 +91,6 @@ TF-Luna Code Inspiration & tutorials: https://makersportal.com/shop/tf-luna-lida
 
 AMT 203 Code: https://github.com/HodgsonOrtho/AMT203
 
-## TF-Luna Lidar:
-This is a picture of the lidar I used, it is about $20 and has a range of 8m.
 
-![image](https://github.com/KalebNails/LiDar_Project/assets/102830532/5be4f64d-e12d-4bdb-bc99-2ff9e22e8de1)
-
-## AMT20 Encoder:
-This is a picture of the absolute encoder I used for this project. We ran it using an arduino. 
-
-![image](https://github.com/KalebNails/LiDar_Project/assets/102830532/cfba53ad-3e34-411f-948e-659eff0f1bb9)
 
 
