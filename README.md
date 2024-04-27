@@ -21,13 +21,17 @@ I started by just setting up the incremental encoder using an hbridge, and below
 Once I had the encoder working, I set up the TF luna. Orignially I had the TF luna running on a raspberry pi that was connected to a desktop through eithernet and an arduino connected to the same desktop through serial. The I used UDP to transfer all the data in realtime to the computer tower. The issue I ran into was that the incremental encoder was not accurate enough and I would end up getting drift in my values. After I hit this wall, I found an absolute encoder, but summer was rapidly approaching and so were finals, so this project got put away.
 
 ## Results 
-Below are some of the results we collected from our data collection, throughout the campus.
+Below are some of the results we collected from our data collection, throughout the campus:
+### Hallway ###
 ![image](https://github.com/KalebNails/LiDar_Project/assets/102830532/946880a8-3cf0-4811-9501-096f3d901716) 
 
+### Center Junction ###
 ![image](https://github.com/KalebNails/LiDar_Project/assets/102830532/4bec32ac-76f4-4e4b-9657-694d9ab316b0)
 
+### Classroom ###
 ![image](https://github.com/KalebNails/LiDar_Project/assets/102830532/6d26e2b1-3f2a-4678-951f-09996ace5a7c)
 
+### Eleveator ###
 ![image](https://github.com/KalebNails/LiDar_Project/assets/102830532/735c5bc5-b500-43d2-a137-5db36fbdb0aa)
 
 
