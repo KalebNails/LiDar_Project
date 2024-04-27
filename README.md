@@ -9,14 +9,23 @@ We ran the lidar using a raspberry pi 4, and then used an arduino as a middleman
 
 ## File Structure
 📦LiDar_Project
+
  ┣ 📂experimental
+ 
  ┃ ┣ 📄ArduinoReader.py
+ 
  ┃ ┗ 📄combined.py
+ 
  ┣ 📄AMT203.py
+ 
  ┣ 📄Main.py
+ 
  ┣ 📄README.md
+ 
  ┣ 📄TFLunaRangeOutput.py
+ 
  ┣ 📄anlge_test.py
+ 
  ┗ 📄plotter.py
 
 
