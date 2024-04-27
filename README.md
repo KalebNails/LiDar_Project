@@ -10,7 +10,7 @@ We ran the lidar using a raspberry pi 4, and then used an arduino as a middleman
 Below is an image of the sensors suite we put together. 
 ![image](https://github.com/KalebNails/LiDar_Project/assets/102830532/2632550e-1d67-49bb-8fd0-541499f696dc)
 
-## 📝 File Structure 
+### 📝 File Structure 
 ```text
 📦LiDar_Project
  ┣ 📂experimental
