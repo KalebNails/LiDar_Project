@@ -10,6 +10,20 @@ We ran the lidar using a raspberry pi 4, and then used an arduino as a middleman
 Below is an image of the sensors suite we put together. 
 ![image](https://github.com/KalebNails/LiDar_Project/assets/102830532/2632550e-1d67-49bb-8fd0-541499f696dc)
 
+## 📝 File Structure 
+```text
+📦LiDar_Project
+ ┣ 📂experimental
+ ┃ ┣ 📄ArduinoReader.py
+ ┃ ┗ 📄combined.py
+ ┣ 📄AMT203.py
+ ┣ 📄Main.py
+ ┣ 📄README.md
+ ┣ 📄TFLunaRangeOutput.py
+ ┣ 📄anlge_test.py
+ ┗ 📄plotter.py
+```
+
 ### Project Origins:
 This started as a personal project to learn about Lidar and encoders. The original plan was to have an encoder with a mirror attached to it, and a lidar directly under it pointing up as seen in the images below. 
 ![image](https://github.com/KalebNails/LiDar_Project/assets/102830532/2aba7f3b-47d7-47e6-bd68-f936eacfff19)  ![image](https://github.com/KalebNails/LiDar_Project/assets/102830532/98db289d-f6c5-4b41-bd92-847847df9202)
@@ -35,19 +49,7 @@ Below are some of the results we collected from our data collection, throughout 
 ![image](https://github.com/KalebNails/LiDar_Project/assets/102830532/735c5bc5-b500-43d2-a137-5db36fbdb0aa)
 ---
 
-## 📝 File Structure 
-```text
-📦LiDar_Project
- ┣ 📂experimental
- ┃ ┣ 📄ArduinoReader.py
- ┃ ┗ 📄combined.py
- ┣ 📄AMT203.py
- ┣ 📄Main.py
- ┣ 📄README.md
- ┣ 📄TFLunaRangeOutput.py
- ┣ 📄anlge_test.py
- ┗ 📄plotter.py
-```
+
 
 
 ## References
